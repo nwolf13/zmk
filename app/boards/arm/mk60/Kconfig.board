@@ -1,0 +1,7 @@
+# Copyright (c) 2021 Miguelio
+# SPDX-License-Identifier: MIT
+
+config BOARD_MK60
+	bool "mk60"
+	depends on SOC_NRF52833_QIAA
+
